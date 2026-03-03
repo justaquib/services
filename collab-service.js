@@ -1,16 +1,6 @@
 /**
  * Collaboration Board WebSocket Server
  * Handles real-time synchronization between clients
- * Features:
- * - Room management (create/join)
- * - Element operations (add/update/delete)
- * - Cursor tracking
- * - Canvas clearing
- * - State saving (in-memory)
- * - User presence notifications
- * - Basic error handling
- * - Room cleanup on disconnect
- * - Scalable architecture for future enhancements
  */
 
 const { WebSocketServer } = require('ws');
